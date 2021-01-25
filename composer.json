@@ -1,0 +1,31 @@
+{
+  "name": "contraption/component",
+  "description": "A Contraption component",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ollie Read",
+      "email": "me@ollieread.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Contraption\\Component\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Contraption\\Component\\Tests\\": "tests/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "limedeck/phpunit-detailed-printer": "^6.0",
+    "fzaninotto/faker": "^1.0"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
